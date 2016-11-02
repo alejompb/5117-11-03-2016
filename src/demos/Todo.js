@@ -1,5 +1,6 @@
 import React from 'react';
 
+// code from here: https://facebook.github.io/react/
 class Todo extends React.Component {
   constructor(props) {
     super(props);

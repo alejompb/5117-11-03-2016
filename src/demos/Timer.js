@@ -1,5 +1,6 @@
 import React from 'react';
 
+// code from here: https://facebook.github.io/react/
 class Timer extends React.Component {
   constructor(props) {
     super(props);
@@ -28,7 +29,11 @@ class Timer extends React.Component {
 
   render() {
     return (
-      <div>Seconds Elapsed: {this.state.secondsElapsed}</div>
+      <div>
+        <b>{this.props.title}</b>
+        <br/>
+        Seconds Elapsed: {this.state.secondsElapsed}
+      </div>
     );
   }
 }

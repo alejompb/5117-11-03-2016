@@ -16,7 +16,7 @@ class App extends Component {
 
 
         <div className="demos">
-          <Timer />
+          <Timer title="Here is a timer" />
           <Todo />
         </div>
 
